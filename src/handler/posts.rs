@@ -26,7 +26,7 @@ use utoipa_axum::router::OpenApiRouter;
         (status = 200, description = "List all posts successfully", body = ApiResponsePagination<Vec<PostResponse>>)
     ),
     security(("bearer_auth" = [])),
-    tag = "post"
+    tag = "posts"
 )]
 pub async fn get_posts(
     State(data): State<Arc<AppState>>,

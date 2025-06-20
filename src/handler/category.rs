@@ -15,7 +15,6 @@ use axum::{
     Json,
 };
 use serde_json::json;
-use tracing::info;
 use std::sync::Arc;
 use utoipa_axum::router::OpenApiRouter;
 
