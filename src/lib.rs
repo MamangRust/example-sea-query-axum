@@ -1,5 +1,5 @@
-pub mod model;
 pub mod schema;
+pub mod model;
 pub mod abstract_trait;
 pub mod domain;
 pub mod utils;
